@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pro1</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+   
+
+</head>
+   <style>
+    *{
+    margin:0;
+    top: 0;
+    left: 0;
+}
+
+header{
+         
+         text-decoration: none;
+         background-color: black;
+            display: flex;
+            margin: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 0%;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+}
+#logo{
+      flex:2;
+      text-decoration: none;
+      color:white;
+      font-size: 2em;
+      margin-left: 2%;
+}
+.header,nav a{
+    flex: 3;
+    margin-right: 9px;
+       color:white;
+       text-decoration: none;
+       margin-top: 3em;
+       padding: 15px;
+       font-size: 22px;
+
+
+}
+
+.header,nav a:hover{
+
+                 color: white;
+                 
+                 background-color: skyblue;
+
+}
+.maintext{
+           display: flex;
+           flex-direction: column;
+           height:50vh;
+           justify-content: center;
+           padding: 8em;
+}
+.tagline1{
+           font-size: 3em;
+}
+.tagline2{
+         font-size: 8em;
+}
+.callus{
+       font-size: 2em;
+       color: yellow;
+}
+
+
+
+
+.tagline1{
+   color: red;
+      
+}
+
+.landing{
+     background-image: url('../websites/raj.jpg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+} 
+.section__subheader{
+          color: red;
+          font-size: 2em;
+        align-items: center;
+} 
+.section__header{
+                color: black;
+                font-size: 5em;
+                align-items: center;
+}
+.section__description{
+             font-size: 2em;
+             align-items: center;
+}
+.about__image img{
+         max-width: 450px;
+         margin: auto;
+         border-radius: 5px;
+}   
+.about__container {
+     grid-template-columns: repeat(2, 1fr);
+     align-items: center;
+}
+.btn{
+       background-color: red;
+       color: antiquewhite;
+       border-radius: 15px;
+       width: 8%;
+       padding: 10px 0px;
+       font-size:1em;
+}
+@media (width > 576px){
+     .room__grid {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+     }
+}
+.section__container {
+                      text-align: center;   
+                      padding: 5em;     
+}
+.service__list span{
+     padding: 5px 12px;
+     font-size: 1.75rem;
+     color: black;
+     background-color: antiquewhite;
+     border-radius: 100% ;
+}
+.service{
+      background-image: url('../websites/oo.jpg');
+      background-position: center;
+      background-size: cover;
+}
+.service__list li :nth-child(1) span{
+    color: black;
+    background-color: white;
+}
+.service__list li:nth-child(2) span{
+    color: black;
+    background-color: pink;
+}
+.service__list li:nth-child(3) span{
+    color: black;
+    background-color: pink;
+}
+.service__list li:nth-child(4) span{
+    color: black;
+    background-color: pink;
+}
+.banner__content{
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 0 20px aqua;
+}
+.banner__card{
+     text-align: center;
+     flex: 1 1 180px; 
+      
+    }
+ .banner__card h4{
+         font-size: 2rem;
+         font-weight: 600;
+         color: black;
+ }   
+ .banner__card p {
+      color:red;
+      font-size: 1em;
+ }
+ .footer__coll{
+      background-color: black;
+      color: antiquewhite;
+      border: 0px solid black;
+      width: 100%;
+ }
+ .footer__col{
+        background-color: black;
+        color: beige;
+ }
+ .footer__links,li a{
+         text-decoration: none;
+         color: antiquewhite;
+         
+         padding:0px 0px ;
+ }
+ .container{
+    
+         color:red;
+         font-size: 2em;
+ }
+   </style>
+<body>
+    <div class="landing">
+        <header>
+        <a href="#" id="logo">ROYAL PARADISE </a>
+           <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+             <a href="#our living room">LIVING ROOMS</a>
+            <a href="#service">SERVICES</a>
+            <a href="#contact">CONTACTUS</a>
+        
+        </nav>  
+       
+        </header>
+        
+        <div class="maintext" id="home">
+            <div class="tagline1">
+              Simple - Unique - Friendly
+            </div>
+            <div class="tagline2">
+                MAKE YOURSELF AT HOME
+            </div>
+            <div class="callus">
+                IN OUR HOTEL 
+            </div>
+            
+        </div>
+    </div>
+
+    <br><br>
+  <center> <h1 style="color: red;">ABOUT</h1></center> 
+      <section class="section__container about__container" id="about">
+        <div class="about__image">
+         <center> <img src="../websites/roo.jpg"   alt="about"/></center> 
+        </div>
+        <div class="about__content">
+         <center>  <p class="section__subheader">ABOUT US</p></center> 
+         <center>      <h2 class="section__header">The Best Holidays Start Here!</h2></center> 
+         <center>     <p class="section__description">
+                with a focus on quality accommendations,personalization,experience,<br>
+                seamless bookings,our platform is dedicated to ensuring that traveler<br>
+                embarks on their dream holiday with confidence and excitement.
+            </p></center> 
+            <center>    <div class="about__btn">
+                <button class="btn">Read More</button>
+            </div></center>
+        </div>
+      </section>
+      <br>
+      <br> 
+      <section class="section__container room__container" id="our living room">
+      <center>  <p class="section__subheader">OUR LIVING ROOM</p></center>
+      <center> <h2 class="section__header">The Most Memorable Rest Time Starts</h2></center>
+        <div class="room__card">
+            <div class="room__card__image">
+                <img src="../websites/rr.jpg" alt="room" />
+              <div class="room__card__icons">
+                <span><i class="ri-heart-fill"></i></span>
+                <span><i class="ri-paint-fill"></i></span>
+                <span><i class="ri-shield-star-line"></i></span>
+              </div>
+            </div>
+            <div class="room__card__details">
+                <h4>Deluxe Ocean View</h4>
+                <p>
+                    Bask in luxury with breathing ocean views from Your
+                    suite.
+                </p>
+                <h5>Starting From <span>$299/night</span></h5><br>
+                <button class="btn">Book Now</button>
+            </div>
+            <br>
+         <center><div class="room__card">
+                <div class="room__card__image">
+                    <img src="../websites/rrr.jpg" alt="room" />
+                  <div class="room__card__icons">
+                    <span><i class="ri-heart-fill"></i></span>
+                    <span><i class="ri-paint-fill"></i></span>
+                    <span><i class="ri-shield-star-line"></i></span>
+                  </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Executive Cityscape Room</h4>
+                    <p>
+                        Experience urban elegance and modern comfort in the head of the city.
+                    </p>
+                    <h5>Starting From <span>$699/night</span></h5><br>
+                    <button class="btn">Book Now</button>
+                </div></center> 
+                <br>
+            <right>   <div class="room__card">
+                    <div class="room__card__image">
+                        <img src="../websites/rrrr.jpg" alt="room" />
+                      <div class="room__card__icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                      </div>
+                    </div>
+                    <div class="room__card__details">
+                        <h4>family garden retreat</h4>
+                        <p>
+                            Spacious and inviting, perfect for creating cherished manner
+                            with loved ones.
+                        </p>
+                        <h5>Starting From <span>$999/night</span></h5><br>
+                        <button class="btn">Book Now</button>
+                    </div>
+        </div>
+      </section>
+      <section class="service" id="service">
+        
+        <div class="section__container service__container">
+            <p class="service__content">
+               <h1> SERVICES</h1>
+            </p>
+            <h2 class="section__header">Strive only for the Best.</h2><br>
+            <ul class="service__list">
+                
+                  <span><i class="ri-shield-star-fill"></i></span>
+                        High Class Security
+                </li><br><br><br>
+                
+                <span><i class="ri-24-hours-line"></i></span>
+                    24 Hours Room service
+                </li><br><br><br>
+                
+                <span><i class="ri-headphone-fill"></i></span>
+                        Conference Room
+                </li><br><br><br>
+                
+                 <span><i class="ri-map-2-line"></i></span>
+                Tourist Guide Support</p>
+                </li>
+            </ul>
+        </div>
+      </section>
+<section class="section__container banner__container">
+    <div class="banner__content">
+        <div class="banner__card">
+            <h4>25+</h4>
+            <p>Properties Available</p>
+        </div>
+        
+        <div class="banner__card">
+            <h4>350+</h4>
+            <p>Bookings Completed</p>
+        </div> 
+        <div class="banner__card">
+            <h4>600+</h4>
+            <p>Happy Customers</p>
+        </div>
+    </div>
+</section>
+    
+<footer class="footer" id="contact">
+    <div class="section__container footer__container">
+        <div class="footer__col">
+            <img src="C:\Users\acer\Desktop\New folder\website products\s.jpg">
+            <h1 style="color:red; font-size: 6em;">ROYAL PARADISE</h1>
+            <p class="section__description">
+                Discover a world of comfort,luxury, and 
+                adventure as you explore our curated 
+                selection of hotels,making every moment
+                 of your getaway truly extradinary.
+            </p>
+            <br>
+            
+            <div class="footer__coll">
+                <center>   <h4 style="font-size: 2em;color: red;">CONTACT US</h4><br>
+                   <p>phone:91+9790053637</p><br>
+                   <a href="#">royalparadise@info.com</a><br>
+                   <div class="footer__socials">
+                    <br>
+                       <h1>SOCIAL MEDIAS</h1>
+                       <br>
+                    <span><i class="ri-facebook-circle-fill">facebook</i></span><br><br>
+                    <span><i class="ri-instagram-line"></i>instagram</span><br><br>
+                    <span><i class="ri-twitter-fill"></i>twitter</span><br><br>
+                    <span><i class="ri-youtube-line"></i>youtube</span><br><br>
+                   </div></center>
+           
+               </div>
+               <br>
+            <div class="footer__ser">
+        <center>   <h1 style="color: red;">OUR SERVICES</h1></center> 
+       <ul class="footer__links"></ul> 
+      <li>  <a href="#">Concierge Assistance</a><br></li>
+        <li>  <a href="#">Concierge Assistance</a><br></li>
+      <li><a href="#">Flexible Bookings Options</a><br></li>
+        <li> <a href="#">Airport Transfers</a><br></li>
+            <li> <a href="#">Wellness & Recreation</a><br></li>
+    </ul> 
+    <br>
+         </div>
+         <div class="container">
+            <p style="color: antiquewhite;"> 2024 Our Hotel. All rights reserved.</p>
+        </div> 
+        </div>
+    </div>
+   
+    </div>
+    
+</footer>
+
+</footer>
+</body>
+</html>
